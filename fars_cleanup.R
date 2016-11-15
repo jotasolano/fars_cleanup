@@ -11,7 +11,7 @@ to.keep.a <- c("ST_CASE", "COUNTY", "CITY", "DAY", "MONTH",
              "YEAR", "DAY_WEEK", "HOUR", "MINUTE", "LATITUDE",
              "LONGITUD", "WEATHER", "FATALS", "DRUNK_DR")
 
-to.keep.v <- c("ST_CASE", "BODY_TYP", "MOD_YEAR")
+to.keep.v <- c("ST_CASE", "BODY_TYP", "MOD_YEAR") 
 
 accident.short  <- accident[to.keep.a]
 vehicle.short   <- vehicle[to.keep.v]
