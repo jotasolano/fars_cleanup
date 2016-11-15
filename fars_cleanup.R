@@ -33,3 +33,5 @@ accident.short <- subset(accident.short, !(WEATHER == 98 | WEATHER == 99))
 
 
 str(accident.short)
+
+write.csv(accident.short, file = "fars.csv", row.names = F)
